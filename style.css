@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(231, 239, 239);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Playwrite HR Lijeva;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+#form * {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons * {
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.buttons button {
+  background-color: chocolate;
+  color: white;
+  border: none;
+}
+
+.todo-wrapper {
+  background-color: rgb(189, 210, 210);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+.rigth {
+  display: flex;
+  gap: 15px;
+}
+.rigth {
+  cursor: pointer;
+  color: white;
+}
+
+.rigth span {
+  background-color: rgb(142, 146, 146);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
